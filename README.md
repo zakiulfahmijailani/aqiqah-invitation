@@ -22,14 +22,32 @@ Each invitation is a fully standalone Next.js application with animated componen
 
 ---
 
+## 🎬 Demo
+
+> 📽️ *Demo video / GIF coming soon — showcasing both the boy (Izhan) and girl (Rumaisha) invitation pages.*
+
+<!-- 
+  TODO: Replace this section with actual demo content.
+  Suggested format:
+
+  ### 🧒 Boy Version — Muhammad Izhan
+  ![Izhan Demo](./docs/demo/izhan-demo.gif)
+
+  ### 👧 Girl Version — Rumaisha
+  ![Rumaisha Demo](./docs/demo/rumaisha-demo.gif)
+
+  Or embed a video:
+  <video src="./docs/demo/izhan-demo.mp4" controls width="100%"></video>
+-->
+
+---
+
 ## 📦 Projects
 
-| App | Theme | Baby | Live URL |
-| --- | --- | --- | --- |
-| `apps/izhan` | 🔵 Boy (blue/gold) | Muhammad Izhan | [View Live](https://aqiqah-izhan.vercel.app) |
-| `apps/rumaisha` | 🩷 Girl (pink/rose) | Rumaisha | [View Live](https://aqiqah-rumaisha.vercel.app) |
-
-> **Note:** Live URLs may need to be updated based on your Vercel deployment settings.
+| App | Theme | Baby |
+| --- | --- | --- |
+| `apps/izhan` | 🔵 Boy (blue/gold) | Muhammad Izhan |
+| `apps/rumaisha` | 🩷 Girl (pink/rose) | Rumaisha |
 
 ---
 
@@ -40,7 +58,6 @@ Each invitation is a fully standalone Next.js application with animated componen
 | [Next.js 14+](https://nextjs.org/) | React framework with App Router |
 | [TypeScript](https://www.typescriptlang.org/) | Type-safe development |
 | [Tailwind CSS](https://tailwindcss.com/) | Utility-first styling |
-| [Vercel](https://vercel.com/) | Deployment & hosting |
 
 ---
 
@@ -107,29 +124,13 @@ aqiqah-invitation/
 │       └── tsconfig.json
 │
 ├── docs/
+│   ├── demo/                 # Demo videos / GIFs
 │   └── screenshots/          # Screenshots for documentation
 │
 ├── .gitignore
 ├── package.json              # Workspace root configuration
 └── README.md
 ```
-
----
-
-## 🌐 Deployment
-
-Each app in `apps/` can be deployed independently to **Vercel** (or any other Next.js-compatible hosting platform).
-
-### Deploying to Vercel
-
-1. Import the repository on [vercel.com/new](https://vercel.com/new)
-2. Set the **Root Directory** to the specific app:
-   - For Izhan: `apps/izhan`
-   - For Rumaisha: `apps/rumaisha`
-3. Vercel will auto-detect Next.js and configure the build settings
-4. Click **Deploy** 🚀
-
-> **Tip:** You can deploy both apps from the same repository by creating two separate Vercel projects, each pointing to a different root directory.
 
 ---
 
