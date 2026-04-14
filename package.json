@@ -1,0 +1,13 @@
+{
+  "name": "aqiqah-invitation",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev:izhan": "npm run dev --workspace=apps/izhan",
+    "dev:rumaisha": "npm run dev --workspace=apps/rumaisha",
+    "build:izhan": "npm run build --workspace=apps/izhan",
+    "build:rumaisha": "npm run build --workspace=apps/rumaisha",
+    "build:all": "npm run build:izhan && npm run build:rumaisha"
+  }
+}
