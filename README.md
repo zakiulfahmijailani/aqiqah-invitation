@@ -24,21 +24,7 @@ Each invitation is a fully standalone Next.js application with animated componen
 
 ## 🎬 Demo
 
-> 📽️ *Demo video / GIF coming soon — showcasing both the boy (Izhan) and girl (Rumaisha) invitation pages.*
-
-<!-- 
-  TODO: Replace this section with actual demo content.
-  Suggested format:
-
-  ### 🧒 Boy Version — Muhammad Izhan
-  ![Izhan Demo](./docs/demo/izhan-demo.gif)
-
-  ### 👧 Girl Version — Rumaisha
-  ![Rumaisha Demo](./docs/demo/rumaisha-demo.gif)
-
-  Or embed a video:
-  <video src="./docs/demo/izhan-demo.mp4" controls width="100%"></video>
--->
+https://github.com/user-attachments/assets/26c24393-cafa-4347-a041-87c520f0e344
 
 ---
 
